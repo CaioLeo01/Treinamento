@@ -10,7 +10,7 @@ printf("Me diga,qual o seu nome?\n");
 scanf("%s", &nome);
 printf("Seja bem ");
 
-
+//oi
 
 
 }
