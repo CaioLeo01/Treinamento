@@ -8,11 +8,7 @@
 
 int main(){
 
-char alfabeto, lingua, por, porM, ing, inG;
-por == 'p';
-porM =='P';
-ing == 'i';
-inG == 'I';
+char alfabeto, lingua;
 printf("Qual lingua que o alfabeto?\nWhat language what the alphabet\n");
 printf("para portugues digite a letra 'P'\n");
 printf("Para ingles digite a letra 'i'\n");
@@ -22,13 +18,12 @@ fflush(stdin);
  
 
 
-printf("Digite uma letra do alfabeto e recebera uma palavra com essa letra\n");
+printf("uma letra do alfabeto e recebera uma palavra com essa letra");
 scanf("%c", &alfabeto);
 
-if(lingua == por || lingua == porM)
-
-
 switch(alfabeto){
+
+if(lingua == 'p' || lingua == 'P')
 
 case 'a': printf("abelha");break;
 case 'b': printf("bola");break;
@@ -57,15 +52,45 @@ case 'x': printf("xícara");break;
 case 'y': printf("Yakult");break;
 case 'z': printf("zebra");break;
 default:  printf("código inválido");break;
+
+    else if(lingua !=)
 }
-else if (lingua == ing || lingua == inG)
-{
-    printf("deu certo");
-}
+
+    switch(alfabeto){
+
+        if(lingua == 'i' || lingua == 'I')
+      
+        case 'a': printf("abelha");break;
+        case 'b': printf("bola");break;
+        case 'c': printf("casa");break;
+        case 'd': printf("dado");break;
+        case 'e': printf("escola");break;
+        case 'f': printf("faca");break;
+        case 'g': printf("gato");break;
+        case 'h': printf("helicóptero");break;
+        case 'i': printf("igreja");break;
+        case 'j': printf("jacaré");break;
+        case 'k': printf("kiwi");break;
+        case 'l': printf("Lacoste");break;
+        case 'm': printf("macaco");break;
+        case 'n': printf("navio");break;
+        case 'o': printf("ovo");break;
+        case 'p': printf("pato");break;
+        case 'q': printf("queijo");break;
+        case 'r': printf("rato");break;
+        case 's': printf("sapo");break;
+        case 't': printf("tatu");break;
+        case 'u': printf("uva");break;
+        case 'v': printf("vaca");break;
+        case 'w': printf("William");break;
+        case 'x': printf("xícara");break;
+        case 'y': printf("Yakult");break;
+        case 'z': printf("zebra");break;
+        default:  printf("código inválido");break;
 
         
 
-
+        
 }
 
 
@@ -73,9 +98,10 @@ else if (lingua == ing || lingua == inG)
 
 
 
+}
 
-
-
+/*#define POR == 'p';
+#define PORM =='P';*/
 
  
 
