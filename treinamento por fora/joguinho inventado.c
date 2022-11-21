@@ -26,7 +26,7 @@ do
 
     printf("o resultado proposto por voce foi: %.2f\n", d4);
     n5++;
-} while ( d4 != 9);
+} while ( d4 != 16);
 
 if (n5 <= 1)
 {
